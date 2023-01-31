@@ -10,15 +10,22 @@ export default function  ({props}) {
     var task=props.task==='true'?task1:task2
     let col="#FFFFFF"
     let text="#606C80";
-    if(props.work==='Design'){
+    if(props.work==='Design' ){
         col= "rgba(59, 130, 246, 0.1)"
         text="#2563EB"
     }
-    if(props.work==='Development' ){
+    if(props.work==='In Process' ||props.work==='To Verify'){
+        col= "rgba(168, 85, 247, 0.1)"
+        text=" #9333EA"
+    }
+    if(props.work==='Development' || props.work==='Todo'){
         col= "rgba(236, 72, 153, 0.1)"
         text="#DB2777"
     }
-
+    if(props.work==='Done'){
+        col= "rgba(34, 197, 94, 0.1)"
+        text="#16A34A"
+    }
     var num=props.taskNum?props.taskNum:1;
   return (
     <div className='mainContainer'>
@@ -32,9 +39,6 @@ export default function  ({props}) {
        </div>
        <div className='bubble2' style={{backgroundColor:col,color:text}}>
            {props.work}
-       </div>
-       <div className='bubble3' >
-            {props.tag}
        </div>
 
     </div>

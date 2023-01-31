@@ -84,8 +84,8 @@ flex-grow: 0;
   border-radius: 24px;
   }
   .i{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -276,7 +276,7 @@ height: 40px;
 
 /* White/White */
 
-background: #FFFFFF;
+background: #fcfafa;
 /* Gray/50 */
 
 border: 1px solid #EBEEF2;
@@ -287,27 +287,180 @@ border-radius: 8px;
 }
 .container .tasks{
     display: flex;
-    flex-direction: row;
+    gap: 15px;
+    padding: 2px;
     margin: 2px;
-    gap: 4px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    margin-top: 20px;
 }
 .container .tasks .todo{
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.24;
 }
 .container .tasks .backlog{
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.24;
 }
 .container .tasks .inProcess{
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.24;
 }
 .container .tasks .done{
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.24;
+}
+.container .tasks .backlog .cards{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.container .tasks .todo .cards{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.container .tasks .inProcess .cards{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.container .tasks .done .cards{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.container .tasks .backlog .cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.container .tasks .backlog .cont .mainTitle{
+    display: flex;
+    flex:0.7;
+    justify-content:space-around;align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+.container .tasks .backlog .cont .mainTitle .num{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 8.5px;
+gap: 10px;
+width: 24px;
+height: 24px;
+background: rgba(234, 179, 8, 0.1);
+border-radius: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.container .tasks .todo .cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.container .tasks .todo .cont .mainTitle{
+    display: flex;
+    flex:0.7;
+    justify-content:space-around;align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+.container .tasks .todo .cont .mainTitle .num{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 8.5px;
+gap: 10px;
+width: 24px;
+height: 24px;
+background: rgba(236, 72, 153, 0.1);
+border-radius: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.container .tasks .inProcess .cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.container .tasks .inProcess .cont .mainTitle{
+    display: flex;
+    flex:0.7;
+    justify-content:space-around;align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+
+.container .tasks .inProcess .cont .mainTitle .num{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 8.5px;
+gap: 10px;
+width: 24px;
+height: 24px;
+background: rgba(168, 85, 247, 0.1);
+border-radius: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.container .tasks .done .cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.container .tasks .done .cont .mainTitle{
+    display: flex;
+    flex:0.7;
+    justify-content:space-around;align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+.container .tasks .done .cont .mainTitle .num{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 8.5px;
+gap: 10px;
+width: 24px;
+height: 24px;background: rgba(34, 197, 94, 0.1);
+border-radius: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
 }

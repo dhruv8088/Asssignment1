@@ -1,0 +1,54 @@
+.rightBar::-webkit-scrollbar {
+    display: none;
+   }
+   .rightBar{
+     flex: 0.75;
+      margin-right: 0;
+      padding-right: 0;
+      position: sticky;
+      height: 100vh;
+      overflow-y:scroll;
+      border-right: 1px solid rgba(233, 235, 240, 1)
+   }
+   .rightBar .container{
+    padding: 1px;
+   }
+   .rightBar .container .item{
+    
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+     -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+      padding: 20px;
+       margin-bottom: 20px;
+       background-color: themed("bg");
+   }
+   .rightBar .container .item span{
+   color: gray;
+   }
+   
+   .rightBar .container .item .user{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px 0px;
+   }
+   
+   .rightBar .container .item .user .userInfo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+   }
+   
+   .rightBar .container .item .user .userInfo img{
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 40px;
+   }
+   .rightBar .container .item .user .userInfo span{
+    font-weight: 500;
+    color: black;
+   }
+   #u{
+    margin-top: 8rem;
+   }

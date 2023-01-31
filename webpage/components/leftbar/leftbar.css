@@ -1,0 +1,218 @@
+   .leftBar::-webkit-scrollbar{
+    display: none;
+   }
+   .leftBar{
+    flex: 2;
+    position: sticky;
+    height: 100vh;
+    overflow-y:scroll;
+    border-right: 1px solid rgba(233, 235, 240, 1)
+   }
+   .leftBar .container{
+    padding: 20px;
+   }
+   
+   .leftBar .container .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+   
+   .leftBar .container .menu .user{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   }
+   
+   .leftBar .container .menu .item{
+   display: flex;
+    align-items: center;
+    gap:10px;
+   
+   }
+   
+   .leftBar .container .menu .item img{
+   width: 30px;
+   height: 30px;
+   }
+   
+   .leftBar .container .menu span{
+    font-size: 12px;
+   
+   }
+   
+   .leftBar .container hr{
+    margin: 20px 0px;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+   }
+   
+   .leftBar .container .menu .user img{
+    border-radius: 50%;
+    object-fit: cover;
+   }
+   
+   .leftBar .container .menu .user span{
+    font-size:14px ;
+   }
+   
+   .leftBar .container .menu .item span {
+    font-size: 14px;
+   }
+
+   .leftBar .container .dashboard{
+     width: 107px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+
+color: #1F2633;
+display: flex;
+justify-content: center;
+align-items: center;
+order: 0;
+flex-grow: 0;
+   }
+
+   .leftBar .container .dashboard .dashicon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.dash{
+    width: 85px;
+height: 30px;
+
+/* Bold/12 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+
+/* Gray/300 */
+
+color: #98A2B3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.john{
+
+/* Nancy Martino */
+
+
+width: 87px;
+height: 20px;
+
+/* Bold/12 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+/* Gray/800 */
+
+color: #1F2633;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.designer{
+    width: 49px;
+height: 16px;
+
+/* Bold/11 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+
+/* Gray/200 */
+
+color: #B8BFCC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.uparrow{
+ 
+left: 26.72%;
+right: 26.72%;
+top: 36.28%;
+bottom: 36.28%;
+
+/* Primary/500 */
+
+}
+
+.bubble{
+    /* BADGE */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10.5px;
+    gap: 40px;
+    
+    width: 14px;
+    height: 14px;
+    
+    /* Primary/Opacity/10% */
+    
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+    width: 7px;
+height: 12px;
+
+/* Extra Bold/10 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 7px;
+line-height: 10px;
+/* identical to box height, or 160% */
+
+text-align: center;
+color: #2563EB;
+
+}

@@ -1,0 +1,192 @@
+
+.navBar{
+    display:flex;
+    height: 50px;
+    margin: 1px;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+   }
+   .navBar .leftnav{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+   }
+   
+   .navBar .leftnav span{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+   }
+   
+   .navBar .leftnav .search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    
+    width: 264px;
+    height: 48px;
+    
+    /* White/White */
+    
+    background: #FFFFFF;
+    /* Gray/50 */
+    
+    border: 1px solid #EBEEF2;
+    /* Shadows/Gray/1 Level */
+    
+    box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+   }
+   
+   .navBar .leftnav .search input{
+    width: 450px;
+   }
+   
+   .navBar .leftnav .search{
+    display: flex;
+    align-items: center;
+   }
+   .navBar .rightnav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 70px;
+   }
+   
+   .navBar .rightnav .user{
+    display: flex;
+    flex:3;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+   }
+   .navBar .rightnav .user .bell{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1px;
+    margin-right: 10px;
+   }
+  .red{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px 6px;
+gap: 10px;
+
+position: absolute;
+width: 4px;
+height: 8px;
+right: 20px;
+top: 10px;
+color: #FFFFFF;
+/* Red/500 */
+
+background: #EF4444;
+/* Shadows/Red/1 Level */
+
+box-shadow: 0px 1px 3px rgba(239, 68, 68, 0.2);
+border-radius: 50%;
+  }
+ 
+.rec{
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 14px;
+    bottom: 11px;
+    
+    /* Red/500 */
+    
+    background: #EF4444;
+    /* White/White */
+    
+    border: 3px solid #FFFFFF;
+    /* Shadows/Gray/1 Level */
+    
+    box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
+    border-radius: 100px;
+}
+   .nav{
+    margin-left: 10px;
+    padding-left: 0;
+    align-items: center;
+   }
+   .light{
+    width: 51px;
+height: 16px;
+
+/* Bold/11 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+
+/* Gray/400 */
+
+color: #7A8699;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+   }
+
+   .dark{
+    width: 59px;
+height: 16px;
+
+/* Bold/11 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+
+/* Gray/700 */
+
+color: #323C4D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+
+   }
+   .bell{
+    margin-right: 10px;
+   }

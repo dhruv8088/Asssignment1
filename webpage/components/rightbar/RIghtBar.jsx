@@ -11,7 +11,6 @@ const RightBar = () => {
     <div className="userInfo">
     <Image src={Cross}/>
     </div>
-    
      </div>
      <div className="user" id="u">
       <div className="userInfo">

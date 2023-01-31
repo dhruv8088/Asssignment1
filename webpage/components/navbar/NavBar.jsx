@@ -35,6 +35,8 @@ const NavBar = () => {
     <div className='user'>
     <Image src={folder}/>
     <Image src={bell} />
+    <div className='online'
+    >
     <img
     className='bell'
         src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -42,6 +44,8 @@ const NavBar = () => {
        />
      <div className='red'>2</div>
      <div className='rec'></div>
+    </div>
+
     </div>
    </div>
   </div>

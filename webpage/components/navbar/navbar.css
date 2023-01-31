@@ -79,18 +79,20 @@
     margin-left: 1px;
     margin-right: 10px;
    }
-  .red{
+   .navBar .rightnav .user .online img{
+    position: relative;
+   }
+   .navBar .rightnav .user .online .red{
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+position: absolute;
 padding: 2px 6px;
 gap: 10px;
-
-position: absolute;
 width: 4px;
 height: 8px;
-right: 20px;
+right: 99px;
 top: 10px;
 color: #FFFFFF;
 /* Red/500 */
@@ -102,7 +104,7 @@ box-shadow: 0px 1px 3px rgba(239, 68, 68, 0.2);
 border-radius: 50%;
   }
  
-.rec{
+  .navBar .rightnav .user .online .rec{
     
     
     /* Auto layout */
@@ -112,13 +114,11 @@ border-radius: 50%;
     align-items: flex-start;
     padding: 5px;
     gap: 10px;
-    
-    position: absolute;
     width: 0px;
     height: 0px;
-    right: 14px;
+    right: -17px;
     bottom: 11px;
-    
+    position: relative;
     /* Red/500 */
     
     background: #EF4444;

@@ -287,9 +287,9 @@ border-radius: 8px;
 }
 .container .tasks{
     display: flex;
-    gap: 15px;
-    padding: 2px;
-    margin: 2px;
+    gap: 7px;
+    padding: 1px;
+    margin: 1px;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -299,22 +299,22 @@ border-radius: 8px;
 .container .tasks .todo{
     display: flex;
     flex-direction: column;
-    flex: 0.24;
+    flex: 0.22;
 }
 .container .tasks .backlog{
     display: flex;
     flex-direction: column;
-    flex: 0.24;
+    flex: 0.22;
 }
 .container .tasks .inProcess{
     display: flex;
     flex-direction: column;
-    flex: 0.24;
+    flex: 0.216;
 }
 .container .tasks .done{
     display: flex;
     flex-direction: column;
-    flex: 0.24;
+    flex: 0.214;
 }
 .container .tasks .backlog .cards{
     display: flex;
